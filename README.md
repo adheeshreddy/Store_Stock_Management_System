@@ -43,6 +43,10 @@
   <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/eb83376f-7501-4b5c-ad1d-25423be2c05a" />
 
 
+- Initial Schema Design and LLD Document
+
+[STORE MANAGEMENT SYSTEM _MEDPLUS (2).pdf](https://github.com/user-attachments/files/22119917/STORE.MANAGEMENT.SYSTEM._MEDPLUS.2.pdf)
+
 
 
 
