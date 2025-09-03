@@ -154,7 +154,8 @@ const isUnchanged = Object.keys(updatedDataForComparison).every(
       setTimeout(() => navigate("/view/supplier"), 1500);
     } catch (error) {
       console.error("Error updating supplier:", error);
-      setErrors({ form: "Failed to update supplier. Please try again." });
+      setErrors({ form: error.response.data.details});
+      console.log(error);
     }
   };
 

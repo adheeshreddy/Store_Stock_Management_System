@@ -99,8 +99,9 @@ export default function AddSupplier() {
         address: "",
         createdBy: username,
       });
-    } catch {
-      setErrors({ form: "Failed to register supplier. Please try again." });
+    } catch (err){
+      setErrors({ form: err.response.data.details });
+      console.log(err);
     }
   };
 

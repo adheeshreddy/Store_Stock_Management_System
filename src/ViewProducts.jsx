@@ -5,7 +5,7 @@ const ViewProducts = () => {
   const [products, setProducts] = useState([]);
   const [searchField, setSearchField] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 5;
+  const itemsPerPage = 7;
 
   useEffect(() => {
     filterProducts();
